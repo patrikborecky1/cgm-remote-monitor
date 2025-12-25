@@ -4,7 +4,8 @@ node_modules/
 
 bundle/bundle.out.js
 
-.vscode/
+# Note: .vscode/ is now tracked to share AI agent configurations and project settings
+# If you need personal settings, create .vscode/settings.local.json (not tracked)
 .idea/
 *.iml
 my.env

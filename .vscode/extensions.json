@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "github.copilot",
+    "github.copilot-chat",
+    "dbaeumer.vscode-eslint",
+    "christian-kohler.npm-intellisense",
+    "eg2.vscode-npm-script",
+    "mongodb.mongodb-vscode",
+    "redhat.vscode-yaml",
+    "ms-vscode.test-adapter-converter",
+    "hbenl.vscode-mocha-test-adapter",
+    "esbenp.prettier-vscode"
+  ]
+}
