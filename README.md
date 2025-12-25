@@ -25,6 +25,9 @@ low values, which can be cleared by any watcher of the data.
 Community maintained fork of the
 [original cgm-remote-monitor][original].
 
+> 🤖 **Nové!** Tento projekt nyní podporuje **GitHub Copilot AI asistenta** pro VS Code!  
+> 🇨🇿 [Návod v češtině](NÁVOD-AI-AGENTI.md) | 🇬🇧 [English Guide](docs/AI-AGENTS-VSCODE.md)
+
 [![Coverage Status](https://coveralls.io/repos/github/nightscout/cgm-remote-monitor/badge.svg?branch=master)](https://coveralls.io/github/nightscout/cgm-remote-monitor?branch=master)
 
 [build-img]: https://img.shields.io/travis/nightscout/cgm-remote-monitor.svg
@@ -623,6 +626,24 @@ The setup script will install OS packages then run `npm install`.
 
 The Vagrant VM serves to your host machine only on 192.168.33.10, you can access
 the web interface on [http://192.168.33.10:1337](http://192.168.33.10:1337)
+
+AI Development Tools (VS Code)
+---------------
+
+This project includes configuration for GitHub Copilot and other AI development tools in VS Code. These tools help you write code faster and follow project conventions automatically.
+
+**Quick Start:**
+1. Install [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) extension in VS Code
+2. Open this project in VS Code
+3. The AI agent will automatically use project-specific instructions from `.github/copilot-instructions.md`
+
+**Documentation:** See [docs/AI-AGENTS-VSCODE.md](docs/AI-AGENTS-VSCODE.md) for detailed setup and usage instructions in Czech and English.
+
+**What's included:**
+- Custom Copilot instructions with project structure and coding conventions
+- VS Code settings optimized for Nightscout development
+- Debugging configurations for dev/prod modes and tests
+- Recommended extensions for efficient development
 
 More questions?
 ---------------
