@@ -141,7 +141,8 @@ describe('Feature Name', function () {
 - Update swagger documentation for API changes
 
 ## Dependencies
-- Node.js: ^10.15.2 || ^8.15.1
+- Node.js: ^10.15.2 || ^8.15.1 (as specified in package.json)
+  - Note: These versions are quite old. Check the project's latest requirements before starting development
 - npm: ^6.4.1
 - MongoDB connection required for operation
 
