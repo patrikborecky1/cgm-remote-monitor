@@ -25,6 +25,9 @@ low values, which can be cleared by any watcher of the data.
 Community maintained fork of the
 [original cgm-remote-monitor][original].
 
+> 🤖 **Nové!** Tento projekt nyní podporuje **GitHub Copilot AI asistenta** pro VS Code!  
+> 🇨🇿 [Návod v češtině](NÁVOD-AI-AGENTI.md) | 🇬🇧 [English Guide](docs/AI-AGENTS-VSCODE.md)
+
 [![Coverage Status](https://coveralls.io/repos/github/nightscout/cgm-remote-monitor/badge.svg?branch=master)](https://coveralls.io/github/nightscout/cgm-remote-monitor?branch=master)
 
 [build-img]: https://img.shields.io/travis/nightscout/cgm-remote-monitor.svg
