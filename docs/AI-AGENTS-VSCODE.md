@@ -304,12 +304,65 @@ To disable in certain files:
 2. Try asking explicitly: "Follow the project's comma-first style"
 3. Copilot needs a few examples to learn patterns
 
+## Ověření instalace / Verifying Installation
+
+Po instalaci můžete ověřit, že vše funguje správně:
+
+### Kontrola souborů / File Check
+Ujistěte se, že existují následující soubory:
+```
+✓ .github/copilot-instructions.md
+✓ .vscode/settings.json
+✓ .vscode/extensions.json
+✓ .vscode/launch.json
+```
+
+### Kontrola Copilot / Copilot Check
+1. Otevřete jakýkoliv `.js` soubor v projektu
+2. Začněte psát komentář `// Create a function that`
+3. Copilot by měl nabídnout dokončení kódu
+4. Pokud vidíte šedý text s návrhem, Copilot funguje! ✓
+
+### Kontrola nastavení / Settings Check
+1. Otevřete VS Code nastavení (Ctrl+, nebo Cmd+,)
+2. Vyhledejte "tab size"
+3. Mělo by být nastaveno na 2 (z projektu)
+4. Vyhledejte "quote style"
+5. Mělo by být nastaveno na "single"
+
+---
+
+After installation, you can verify everything works correctly:
+
+### File Check
+Make sure the following files exist:
+```
+✓ .github/copilot-instructions.md
+✓ .vscode/settings.json
+✓ .vscode/extensions.json
+✓ .vscode/launch.json
+```
+
+### Copilot Check
+1. Open any `.js` file in the project
+2. Start typing a comment `// Create a function that`
+3. Copilot should offer code completion
+4. If you see gray text with suggestions, Copilot is working! ✓
+
+### Settings Check
+1. Open VS Code settings (Ctrl+, or Cmd+,)
+2. Search for "tab size"
+3. Should be set to 2 (from project)
+4. Search for "quote style"
+5. Should be set to "single"
+
 ## Další zdroje / Additional Resources
 
+- [Příklady použití Copilot / Copilot Usage Examples](./COPILOT-EXAMPLES.md) ⭐ **Začněte zde!** / **Start here!**
 - [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
 - [VS Code GitHub Copilot Extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
-- [Nightscout Contributing Guide](./CONTRIBUTING.md)
-- [Nightscout README](./README.md)
+- [Nightscout Contributing Guide](../CONTRIBUTING.md)
+- [Nightscout README](../README.md)
 
 ## Podpora / Support
 
